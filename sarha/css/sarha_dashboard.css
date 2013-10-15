@@ -1,0 +1,18 @@
+body {
+	background-color: #000;
+	font-family: 'Electrolize',Arial, sans-serif;
+	
+}
+
+
+#col-left {
+	width: 150px;
+	float: left;
+}
+
+#col-right {
+	width: 1000px;
+	height: 800px;
+	float: left;
+	border-left: 1px solid #111;
+}
