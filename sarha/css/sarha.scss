@@ -1,8 +1,11 @@
+@import "buttons.scss";
+
 $tableborder: #777;
 $tablebkgrd: #ddd;
 
 body {
-	background-color: #555555;
+	background-color: #000;
+	font-family: 'Electrolize',Arial, sans-serif;
 	color: ddd;
 }
 
@@ -47,4 +50,24 @@ table td.room-desc {
 table td.room-ds {
 	width: 150px;	
 	text-align: center;
+}
+
+
+#col-left {
+	width: 150px;
+	float: left;
+}
+
+#col-right {
+	width: 1000px;
+	height: 800px;
+	float: left;
+	border-left: 1px solid #111;
+	
+}
+
+#col-right-main
+{
+	background-color: #333;
+	
 }
